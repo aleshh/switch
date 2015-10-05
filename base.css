@@ -49,10 +49,13 @@
       top: 50%;
       margin: 0 auto;
       transform: translateY(-50%);
-      height: 20vh;
+      height: 21vh;
+      max-height: 31vw;
+      width: 13vw;
       background-size: contain;
       background-repeat: no-repeat;
-      width: 50px;
+      background-position: center;
+      /*width: 50px;*/
     }
 
     #on {
