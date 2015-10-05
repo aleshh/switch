@@ -1,4 +1,4 @@
-/*    html, body, div, span, applet, object, iframe,
+    html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
     del, dfn, em, img, ins, kbd, q, s, samp,
@@ -16,21 +16,51 @@
       border: 0;
       font-size: 100%;
       vertical-align: baseline;
-    }*/
+    }
     /* end of Eric Meyer’s CSS Reset 2.0*/
 
     body {
       font-size: 1.4em;
       color: #000;
+      height: 100vh;
     }
 
     body, textarea, input {
       font-family: 'Muli', sans-serif;
-      background-color: #ddd;
+      background-color: #eef;
+      text-align: center;
     }
 
     strong, b, button, h1 {
       font-family: 'Montserrat', sans-serif;
+    }
+
+    #switch {
+      background-image: url('images/plate.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 98vh;
+      margin-top: 1vh;
+    }
+
+    #on, #off {
+      position: relative;
+      top: 50%;
+      margin: 0 auto;
+      transform: translateY(-50%);
+      height: 20vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 50px;
+    }
+
+    #on {
+      background-image: url('images/on.png');
+    }
+
+    #off {
+      background-image: url('images/off.png');
     }
 
 /*    #container {
