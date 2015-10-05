@@ -18,6 +18,7 @@
       vertical-align: baseline;
     }*/
     /* end of Eric Meyer’s CSS Reset 2.0*/
+
     body {
       font-size: 1.4em;
       color: #000;
@@ -25,23 +26,25 @@
 
     body, textarea, input {
       font-family: 'Muli', sans-serif;
-      background-color: #fff;
+      background-color: #ddd;
     }
 
     strong, b, button, h1 {
       font-family: 'Montserrat', sans-serif;
     }
 
-    #container {
-      position: relative;
-      background-color: #333;
-      color: #009;
-    }
-
-    #switch {
+/*    #container {
       text-align: center;
+
+      position: relative;
+
+      height: 100%;
+    }
+*/
+/*    #switch {
+
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
 
-    }
+    }*/
